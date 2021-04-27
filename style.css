@@ -1,6 +1,9 @@
+body {
+    background-color: rgb(248, 232, 213);
+}
 #AddList {
-    height: 98%;
-    width: 20%;
+    height: 34%;
+    width: 19%;
     position: fixed;
     background-color: bisque;
 }
@@ -16,14 +19,26 @@ h2 {
 .Jobs {
     display: flex;
     flex-direction: column;
-    border: 0px black solid;
-    margin: 15px 20px 0px 0%;
+    border: 2px rgb(94, 94, 94) solid;
+    margin: 15px 20px 0px 0px;
     padding: 15px;
     height: 175px;
     width: 175px;
     background-color: rgb(161, 232, 255);
 }
 .sidebarinner {
-    margin: 0px 2px 5px 2%;
+    margin: 25px 5% 5px 6%;
     display: flex;
+}
+.textbar {
+    height: 30px;
+    width: 300px;
+    font-size: 23px;
+}
+#buttonAdd {
+    height: 35px;
+    width: 308px;
+    text-align: center;
+    font-size: 23px;
+    background-color: peachpuff;
 }

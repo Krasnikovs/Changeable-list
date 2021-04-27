@@ -24,7 +24,7 @@ function render() {
          let fullJob = `
             <div class="Jobs">
                 <p>Uzdevums: ${list[i].job}</p>
-                <p>Paredētais laiks: ${list[i].time}</p>
+                <p>Paredzētais laiks: ${list[i].time}</p>
             </div>`
 
         Jobs.innerHTML += fullJob;
